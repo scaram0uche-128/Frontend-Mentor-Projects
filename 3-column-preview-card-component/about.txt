@@ -1,0 +1,5 @@
+Frontened Projects Name: 3-column-preview-card-component-main
+
+Skills Used: HTML, CSS
+
+My profile: https://www.frontendmentor.io/profile/scaram0uche-128
