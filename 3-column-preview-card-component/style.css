@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 800px;
+    display: flex;
+    border: 2px solid;
+    color: white;
+    border-radius: 5px;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
+    padding: 40px;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0px 7px 7px 0;
+}
+
+h2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    padding: 40px;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.learn_more {
+    font-family: "Lexend Deca", sans-serif;
+    border-radius: 18px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin: 40px 0 0 5px;
+    cursor: pointer;
+}
+
+
+.footer {
+    margin-top: 1.25rem;
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.9rem;
+    color: hsl(179, 100%, 13%);
+}
+
+.footer a {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Mobile Devices ======== */
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    section {
+        border-radius: 0;
+        padding: 2rem;
+    }
+
+    #sedans {
+        border-radius: 7px 7px 0 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 7px 7px;
+    }
+
+    h2 {
+        padding: 20px 0;
+    }
+
+    .learn_more {
+        margin: 20px 0 0 0;
+    }
+}
