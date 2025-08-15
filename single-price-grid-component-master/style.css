@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Karla", sans-serif;
+    background-color: rgb(225, 225, 225);
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    height: 500px;
+    width: 700px;
+    flex-direction: column;
+}
+
+/* ----- upper_box ------ */
+.upper {
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.upper h2 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+}
+
+.upper h4 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+.upper p {
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* ------- lower_box ------ */
+.lower {
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.lower .left,
+.lower .right {
+    flex: 1;
+    padding: 30px;
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+.left p{
+    font-weight: 300;
+}
+
+.price{
+    display: flex;
+}
+.price h1{
+    margin-right: 20px;
+}
+.price p{
+    font-weight: 100;
+    margin-top: 2px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 10px 100px 10px 100px;
+    border: none;
+    border-radius: 5px  ;
+    margin-top: 20px;
+
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.right {
+    background-color: hsl(179, 69%, 45%);
+    border-radius: 0 0 10px 0;
+}
+.right p{
+    margin-right: 60px;
+    font-weight: 200;
+}
+
+
+footer a{
+    text-decoration: none;
+   color: hsl(179, 62%, 43%);
+}
+footer a:hover{
+    color: hsl(71, 73%, 54%);
+}
+
+
+/* ===== Mobile layout (375px) ==== */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        height: auto;
+    }
+
+    .upper {
+        text-align: center;
+    }
+
+    .lower {
+        flex-direction: column;
+    }
+
+    .left {
+        border-radius: 0;
+    }
+
+    .right {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .price {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .right p {
+        margin-right: 0;
+    }
+}
