@@ -1,0 +1,5 @@
+Frotend Project: single-price-grid-component-master
+
+Skills Used: HTML, CSS
+
+My profile: https://www.frontendmentor.io/profile/scaram0uche-128
