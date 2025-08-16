@@ -1,0 +1,7 @@
+Frontend Project- huddle-landing-page-with-single-introductory-section-master
+
+Live Site Link - https://prash-huddle-landing-page.netlify.app/
+
+Skills Used - HTML, CSS
+
+My Profile - https://www.frontendmentor.io/profile/scaram0uche-128
