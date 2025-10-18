@@ -1,0 +1,5 @@
+Project Name - FAQ Accordion Main 
+
+Frontend Mentor Profile: https://www.frontendmentor.io/profile/scaram0uche-128
+
+Deployed Project Link: https://prash-faq-accordion-main.netlify.app/
