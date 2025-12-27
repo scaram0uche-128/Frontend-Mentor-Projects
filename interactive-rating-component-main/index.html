@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="stylesheet" href="style.css" class="css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Rating state (VISIBLE BY DEFAULT) -->
+      <div class="rating-state">
+        <div id="icon-star">
+          <img src="images/icon-star.svg" alt="star-icon" />
+        </div>
+
+        <h1>How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <div class="rating">
+          <button class="rating-card">1</button>
+          <button class="rating-card">2</button>
+          <button class="rating-card">3</button>
+          <button class="rating-card">4</button>
+          <button class="rating-card">5</button>
+        </div>
+
+        <button class="submit">S U B M I T</button>
+      </div>
+
+      <div class="thank-you-state hidden">
+        <img src="images/illustration-thank-you.svg" alt="thank you" />
+
+        <div class="result">
+          You selected <span id="selected-rating"></span> out of 5
+        </div>
+
+        <h1>Thank you!</h1>
+
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+
+        <button class="restart">RATE AGAIN</button>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/scaram0uche-128"
+        >Prashant Kumar</a
+      >.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
